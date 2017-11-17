@@ -524,7 +524,7 @@ footer a:visited:hover {
 /**
  * Examples module
  */
-.examples-list-index .pure-g-r {
+.examples-list-index .pure-g {
   border-top: 1px solid #ddd;
 }
 .examples-list-index article {
@@ -539,7 +539,7 @@ footer a:visited:hover {
   background-color: #eee;
 }
 @media screen and (max-width: 48em) {
-  .examples-list-index .pure-g-r {
+  .examples-list-index .pure-g {
     border-top-style: none;
   }
   .examples-list-index [class*="pure-u-"] {
