@@ -1,7 +1,7 @@
 name:           The Final Countdown
 nickname:       jQuery.countdown
 plugin_version: 2.2.0
-baseurl:        https://github.com/x20mar/marks-retiring
+baseurl:        https://omara.li/marks-retiring
 highlight:      true
 markdown:       kramdown
 redcarpet:
