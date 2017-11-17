@@ -1,0 +1,42 @@
+---
+layout: main
+title: The Final Countdown
+---
+<div class="home-welcome">
+  <div class="container">
+    <div class="pure-g-r">
+      <div class="pure-u-1-2">
+        <h1>
+          <i class="fa fa-clock-o"></i>
+          {{ site.name }}
+        </h1>
+        <p>
+          A simple and html agnostic date countdown plugin for jQuery
+        </p>
+      </div>
+      <div class="pure-u-1-2">
+        {% include main-example.html %}
+      </div>
+    </div>
+    <div class="pure-g-r">
+      <div class="pure-u-1-1">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-content container">
+  <div class="pure-g-r">
+    <div class="pure-u-1-2">
+    </div>
+    <div class="pure-u-1-2">
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var nextYear = (new Date().getFullYear() + 1) + "/01/01";
+  $("#getting-started").countdown(nextYear, function(event) {
+    $(this).html(event.strftime('%-w weeks %-d days %Hh %Mm %Ss'));
+  });
+</script>
