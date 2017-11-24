@@ -157,7 +157,6 @@ main [class*="pure-u-"]:last-child article {
   }
 }
 .main-example {
-  margin: 0 auto;
   width: 355px;
 }
 .main-example .countdown-container {
