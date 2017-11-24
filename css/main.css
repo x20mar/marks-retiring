@@ -369,6 +369,7 @@ footer a:visited:hover {
 .home-welcome h1 {
   color: #E60000;
   line-height: 1em;
+  text-align: center;
 }
 .home-welcome .pure-button {
   background-color: transparent;
