@@ -16,13 +16,6 @@
   <div class="container">
   </div>
 </footer>
-<script type="text/javascript">
-$(function() {
-  $('.nav-toggle > button').click(function(event) {
-    $('header nav').toggleClass('active');
-  });
-});
-</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,300italic">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
@@ -34,5 +27,18 @@ $(function() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
 <script src="{{site.baseurl}}/js/jquery.countdown.min.js"></script>
 <script src="{{site.baseurl}}/js/custom.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('.nav-toggle > button').click(function(event) {
+      $('header nav').toggleClass('active');
+    });
+  });
+  </script>
+  <script type="text/javascript">
+    var nextYear = (new Date().getFullYear() + 1) + "/01/01";
+    $("#getting-started").countdown(nextYear, function(event) {
+      $(this).html(event.strftime('%-w weeks %-d days %Hh %Mm %Ss'));
+    });
+  </script>  
 </body>
 </html>
