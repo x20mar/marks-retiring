@@ -366,24 +366,19 @@ footer a:visited:hover {
  * Home module
  */
 .home-welcome {
-  background-image: linear-gradient(45deg, #361752, #B31B67);
-  background-image: -webkit-linear-gradient(45deg, #361752, #B31B67);
-  background-image: -moz-linear-gradient(45deg, #361752, #B31B67);
-  background-image: -ms-linear-gradient(45deg, #361752, #B31B67);
-  background-image: -o-linear-gradient(45deg, #361752, #B31B67);
-  color: white;
+  color: #E60000;
   padding: 2em 0 2em;
   font-size: 125%;
 }
 .home-welcome h1 {
-  color: white;
+  color: #E60000;
   line-height: 1em;
 }
 .home-welcome .pure-button {
   background-color: transparent;
   border-radius: 3px;
   border: 2px solid white;
-  color: white !important;
+  color: #E60000 !important;
   padding: 20px;
   font-size: 125%;
   margin-right: 20px;
